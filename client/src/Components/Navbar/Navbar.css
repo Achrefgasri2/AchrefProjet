@@ -3,7 +3,7 @@
   font-size: 17px !important;
   font-family: "Comic sans Ms", cursive, sans-serif !important;
   font-style: italic !important;
-  color: rgb(255, 255, 255) !important;
+  color: white !important;
   margin-left: 20px !important;
 }
 .dropdown-toggle::after {
@@ -24,13 +24,14 @@
   margin-top: 0.125rem !important;
 }
 .lin:hover {
-  color: #cb35dc!important;
+  color: #dc3545 !important; 
 }
 .linn:hover {
-  color: #cb35dc !important;
+  color: #dc3545 !important;
+  text-decoration: none !important;
 }
 .nav-link:hover {
-  color: #cb35dc !important;
+  color: #dc3545 !important;
 }
 .icon {
   background-color: transparent !important;

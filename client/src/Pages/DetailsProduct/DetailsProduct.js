@@ -84,7 +84,6 @@ console.log({userToFind})
           {productsToFind.Quantity}{" "}
         </h2>
         <h2> {productsToFind.Description} </h2>
-        {token && 
         <div className="button-container">
           <button
             className="cart-qty-plus"
@@ -110,7 +109,6 @@ console.log({userToFind})
             -
           </button>
         </div>
-}
         <h2>
           {" "}
           <IoResize style={{ color: "black", fontSize: "1.5em" }} />
@@ -126,7 +124,6 @@ console.log({userToFind})
           <GiPriceTag style={{ color: "black", fontSize: "1.5em" }} />
           {productsToFind.Price}{" "}
         </h2>
-        {token &&
         <div className="de">
           <Link to="/" className="link">
             <button onClick={() => dispatch(AddToCart(userToFind._id, prod))}>
@@ -135,7 +132,6 @@ console.log({userToFind})
             </button>
           </Link>
         </div>
-}
         <br />
         <br />
         <div className="commentlist">

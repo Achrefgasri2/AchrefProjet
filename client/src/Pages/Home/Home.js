@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "../../Components/Carousel/Carousel.js";
-import Order from "../../assets/order.png";
+import Order from "../../assets/order.jpg";
 import ProductCard from "../../Components/ProductCard/ProductCard.js";
 import ProductList from "../ProductList/ProductList";
 import "./Home.css";
@@ -11,7 +11,7 @@ const Home = () => {
         <Carousel />
         <ProductList />
         <div ClassName="delivery">
-          <img alt="Order" src={Order} width={100} />
+          <img alt="Order" src={Order} width={800} />
           <h3>Contact Us for Delivery Help</h3>
         </div>
       </div>
